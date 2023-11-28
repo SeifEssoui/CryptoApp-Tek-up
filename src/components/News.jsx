@@ -51,7 +51,7 @@ const News = ({ simplified }) => {
                 <img
                   src={news.thumbnail || demoImage}
                   alt=""
-                  style={{height: '80px', width: '70px', maxWidth: '100%', maxHeight: '200px', objectFit: 'cover' }}
+                  style={{ height: '80px', width: '70px', maxWidth: '100%', maxHeight: '200px', objectFit: 'cover' }}
                 />
               </div>
               <p>{news.description.length > 100 ? `${news.description.substring(0, 100)}...` : news.description}</p>
